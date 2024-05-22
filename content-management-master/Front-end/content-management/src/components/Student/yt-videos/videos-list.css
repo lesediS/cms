@@ -1,0 +1,34 @@
+/* .vidList {
+    align-self: flex-start;
+} */
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-box {
+    display: flex;
+    width: wrap;
+    height: 180px;
+    background-color: #e4e4e4;
+    margin-left: 10vh;
+}
+
+@media(max-width: 768px){
+    .wrap .list-box{
+        display: flex;
+        max-width: 100%;
+    }
+}
+
+.vid{
+    flex: 1;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}

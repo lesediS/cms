@@ -1,0 +1,90 @@
+.top-controls {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+ 
+.actions {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    margin-right: 190px;
+}
+
+
+.list-name{
+    color: rgb(7,64,109);
+    
+}
+
+.grid-name{
+    color: rgb(7,64,109);
+}
+ 
+@media (max-width: 600px) {
+    .module-card {
+        width: 100%;
+    }
+    .actions {
+        flex-direction: column;
+        gap: 10px
+    }
+    .more-icon {
+        margin-left: 2vh;
+    }
+}
+ 
+.module-card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+.card-img-top {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+ 
+.add-form-container {
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ 
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+ 
+.more-icon {
+    margin-left: 200px;
+}
+ 
+.menu {
+    bottom: 200px !important;
+    left: 25px !important;
+}
+ 
+.menu-list>.MuiMenuItem-root:hover {
+    background-color: rgb(25, 118, 210);
+}
+
+.list-more-menu {
+    display: none;
+    transition: display 0.5s;
+    
+    
+  }
+  
+  .list-card:hover .list-more-menu {
+    display: block;
+    
+  }
+  

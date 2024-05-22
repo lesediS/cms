@@ -1,0 +1,13 @@
+.unit-header {
+    margin-bottom: 16px;
+}
+
+.unit-divider {
+    margin-bottom: 24px;
+}
+
+.controls {
+    display: flex;
+    padding: 10px;
+    gap: 5em;
+}

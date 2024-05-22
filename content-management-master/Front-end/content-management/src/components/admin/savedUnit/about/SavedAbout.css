@@ -1,0 +1,27 @@
+.cont {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt {
+  padding-right: 30px;
+  justify-content: left;
+  padding-bottom: 10px;
+}
+
+.abt, .textareas{
+  margin-left: 2em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.textareas {
+  margin-left: 0px;
+}
+
+.secHeading {
+  margin-bottom: -24px;
+  margin-top: -20px;
+}

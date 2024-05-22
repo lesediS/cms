@@ -1,0 +1,11 @@
+.view-as-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 7vh;
+}
+
+.view-as-container .MuiIconButton-root {
+    margin: 0 5px;
+}

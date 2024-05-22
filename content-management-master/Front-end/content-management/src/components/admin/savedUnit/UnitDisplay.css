@@ -1,0 +1,41 @@
+.inline-edit-container, .secHeadingContainer, .document-container {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .secHeadingContainer, .document-container {
+    justify-content: space-between;
+  }
+
+  .hr-divider {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  
+  .input-field-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .input-field {
+    flex-grow: 1;
+  }
+
+  .icons {
+    margin-top: -1vh;
+    margin-right: 108vh;
+  }
+
+  .secHeadingContainer {
+    display: flex;
+    align-items: center;
+}
+
+

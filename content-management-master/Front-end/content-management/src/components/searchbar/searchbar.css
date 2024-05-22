@@ -1,0 +1,32 @@
+.search-form {
+    width: 50%;
+  }
+  
+  .text-field {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-field .MuiInputBase-root {
+    height: 2.5rem; /* Set the height to 0.5rem (8 pixels) */
+  }
+  
+  .text-field .MuiInputBase-input {
+    padding-left: 10px; /* Adjust the left padding as needed */
+    height: 100%; /* Ensure the input fills the container height */
+  }
+  
+  .text-field .MuiButtonBase-root {
+    padding: 8px; /* Adjust the padding as needed */
+  }
+  
+  .text-field .MuiSvgIcon-root {
+    font-size: 25px;
+    color: rgb(7,64,109); 
+  }
+
+  @media (max-width: 600px) {
+    .text-field .MuiSvgIcon-root {
+      font-size: 20px;
+    }
+  }

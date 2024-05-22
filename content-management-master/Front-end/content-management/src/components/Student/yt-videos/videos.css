@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.yt-box {
+  flex: 1; /* Maintain aspect ratio for video on larger screens */
+  width: 50%; /* Fixed width for video on all screen sizes */
+  height: 55vh; /* Adjust height as needed */
+  display: flex;
+}
+
+.list {
+  flex: 0.55;
+  width: 15%;
+  margin-bottom: 25px;
+  margin-right: 0;
+}
+
+.video {
+  min-width: 95%;
+  min-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .yt-box {
+    width: 100%;
+  }
+  
+  .list {
+    width: 100%;
+  }
+}

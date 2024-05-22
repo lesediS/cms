@@ -1,0 +1,18 @@
+.top-controls {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.course-overview {
+    flex: 0 0 30%;
+    margin-right: 1em;
+}
+
+
+  .actions {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center; 
+  }

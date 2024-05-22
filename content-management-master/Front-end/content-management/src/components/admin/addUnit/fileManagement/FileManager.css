@@ -1,0 +1,17 @@
+.file-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0 15px;
+  }
+  
+  .file-bubble {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 2vh;
+    padding: 5px 10px;
+    border-radius: 16px;
+    font-size: 0.875rem;
+    background-color: #c7c7c7;
+  }

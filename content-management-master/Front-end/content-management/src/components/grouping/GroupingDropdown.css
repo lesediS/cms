@@ -1,0 +1,23 @@
+#groupingdropdown {
+    width: 160px;
+    font-size: 13px;
+    border: none;
+    height: 2.5rem;
+    color: rgb(188, 188, 188) !important;
+}
+
+.menu-item:hover {
+    color: white;
+    background-color: rgb(5, 50, 72) !important;
+}
+
+button {
+    border-color: rgb(188, 188, 188) !important;
+
+}
+
+.arrow{
+    font-size: 25px !important;
+    color: rgb(7,64,109) !important; 
+}
+

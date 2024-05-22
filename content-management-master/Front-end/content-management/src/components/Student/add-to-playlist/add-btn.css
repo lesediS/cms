@@ -1,0 +1,22 @@
+.add-btn {
+    background: #757575;
+}
+
+.dialog-paper {
+    width: 50vh;
+    height: 35vh;
+    border: none !important;
+}
+
+@media (max-width: 768px) {
+    .add-btn {
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .dialog-paper {
+      width: 80vw;
+      height: auto;
+    }
+  }

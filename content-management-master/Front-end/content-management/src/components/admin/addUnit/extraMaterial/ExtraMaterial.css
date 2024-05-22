@@ -1,0 +1,39 @@
+.extra-material-container {
+    margin-top: 20px;
+    border: none;
+    margin-left: 3vh;
+}
+
+.section-header {
+    display: flex;
+    gap: 10vh;
+}
+
+.text-area {
+    margin-top: 3vh;
+    margin-left: 0.5vh;
+    width: 120vh;
+}
+
+.file-bubble {
+    display: flex;
+    align-items: center;
+    background-color: #c7c7c7;
+    border-radius: 16px;
+    font-size: 2px;
+}
+
+.file-bubble:hover{
+    background-color: #9e9e9e;
+    color: #f1f1f1;
+}
+
+.file-bubble .MuiSvgIcon-root {
+    font-size: 1.5rem;
+}
+
+.aligned-headings {
+    display: flex;
+    justify-content: flex-start;
+  }
+  

@@ -1,0 +1,31 @@
+.course-header {
+    display: flex;
+    flex-direction: column;
+    padding-right: 111.25vh;
+}
+
+.course-divider {
+    margin-bottom: 24px;
+}
+
+.course-card {
+    width: 100%; /* Use media queries to adjust for different screens */
+    cursor: pointer; /* Indicate that the card is clickable */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.course-card:hover {
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.2); /* Add hover effect */
+}
+
+.image-link img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the space without stretching */
+}
+
+.card-caption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}

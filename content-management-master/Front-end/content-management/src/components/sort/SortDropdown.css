@@ -1,0 +1,38 @@
+.sort-btn{
+    width: 240px;
+    font-size: 13px !important;
+    border: none !important;
+    height: 2.5rem;
+    color: rgb(188,188,188) !important;
+
+}
+
+
+
+.menu-item:hover{
+    color: white;
+    background-color: rgb(5,50,72) !important;
+}
+
+.mb-1{
+    border: 1px solid rgb(196,196,196);
+    border-radius: 5px;
+}
+
+.mb-1:hover{
+    border: 1px solid black;
+}
+
+.arrow{
+    font-size: 25px !important;
+    color: rgb(7,64,109); 
+}
+
+@media (max-width: 768px) {
+    .sort-btn {
+      font-size: 12px !important;
+    }
+    .arrow {
+      font-size: 20px !important;
+    }
+  }

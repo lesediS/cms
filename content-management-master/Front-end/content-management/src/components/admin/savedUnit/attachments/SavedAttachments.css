@@ -1,0 +1,26 @@
+.attach {
+    margin-bottom: -24px;
+    margin-top: -5px;
+    margin-left: -10px;
+}
+
+.document-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.file-bubble {
+    display: flex;
+    align-items: center;
+    background-color: #757575;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+
+.file-bubble .MuiIconButton-root {
+    color: white;
+    padding-left: 5px;
+}

@@ -1,0 +1,26 @@
+.inline-edit-container {
+    display: flex;
+    align-items: center;
+    margin-left: 8vh;
+}
+
+.input, textarea {
+    background-color: transparent;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+
+.input:hover {
+    cursor: pointer;
+}
+
+.MuiInlineEdit-input {
+    font-size: 18px;
+}
+
+@media (max-width: 600) {
+    .inline-edit-container {
+        margin-left: 2em;
+    }
+}

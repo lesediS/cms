@@ -1,0 +1,14 @@
+{
+   "configurations": [
+      {
+         "type": "java",
+         "name": "Spring Boot-ContentManagementApplication<cms>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.geeks4learning.cms.ContentManagementApplication",
+         "projectName": "cms",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      }
+   ]
+}

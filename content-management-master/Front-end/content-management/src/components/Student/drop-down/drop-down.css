@@ -1,0 +1,23 @@
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown .MuiIconButton-root {
+    margin-right: 10px;
+}
+
+.dropdown .MuiSvgIcon-root {
+    font-size: 1.5rem;
+    color: #757575;
+    transition: transform 0.3s;
+}
+
+.dropdown .MuiSvgIcon-root:hover {
+    cursor: pointer;
+}
+
+.dropdown.open .MuiSvgIcon-root {
+    transform: rotate(180deg);
+}

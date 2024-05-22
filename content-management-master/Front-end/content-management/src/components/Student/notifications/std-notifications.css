@@ -1,0 +1,22 @@
+.notifs {
+    display: flex;
+    flex-direction: column;
+}
+
+.notifsContainer {
+    display: flex;
+    margin-top: 2em;
+    border-radius: 5px;
+    max-width: 100%;
+    min-height: 10em;
+    text-align: left;
+    font-size: 20px;
+    border: 1px solid lightgray;
+}
+
+.notif-icon {
+    color: #757575;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    cursor: pointer;
+}

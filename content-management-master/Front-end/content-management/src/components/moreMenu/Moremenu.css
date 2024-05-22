@@ -1,0 +1,9 @@
+.menu-item{
+    
+    position: relative; /* Set position to relative */
+    z-index: 1;
+}
+
+.btn-more{
+    cursor: pointer;
+}

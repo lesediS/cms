@@ -1,0 +1,36 @@
+{
+   "java.compile.nullAnalysis.mode": "automatic",
+   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+   "editor.tabSize": 4,
+   "editor.insertSpaces": true,
+   "[go]": {
+      "editor.insertSpaces": true
+   },
+   "[makefile]": {
+      "editor.insertSpaces": true
+   },
+   "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#425964",
+      "activityBar.background": "#425964",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#a67998",
+      "activityBarBadge.foreground": "#15202b",
+      "commandCenter.border": "#e7e7e799",
+      "sash.hoverBorder": "#425964",
+      "statusBar.background": "#2e3e45",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#425964",
+      "statusBarItem.remoteBackground": "#2e3e45",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "titleBar.activeBackground": "#2e3e45",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#2e3e4599",
+      "titleBar.inactiveForeground": "#e7e7e799"
+   },
+   "peacock.color": "#2e3e45",
+   "java.configuration.updateBuildConfiguration": "interactive",
+   "cSpell.words": [
+      "coursescreen"
+   ]
+}
